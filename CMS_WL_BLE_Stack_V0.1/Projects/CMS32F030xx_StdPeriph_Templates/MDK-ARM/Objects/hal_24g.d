@@ -1,0 +1,9 @@
+.\objects\hal_24g.o: ..\src\HAL\hal_24g.c
+.\objects\hal_24g.o: ..\inc\HAL\hal_24g.h
+.\objects\hal_24g.o: ..\inc\user_Config.h
+.\objects\hal_24g.o: ..\..\..\Libraries\CMSIS\CMS32F030x.h
+.\objects\hal_24g.o: ..\..\..\Libraries\CMSIS\Include\core_cm0.h
+.\objects\hal_24g.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hal_24g.o: ..\..\..\Libraries\CMSIS\Include\core_cmInstr.h
+.\objects\hal_24g.o: ..\..\..\Libraries\CMSIS\Include\core_cmFunc.h
+.\objects\hal_24g.o: ..\..\..\Libraries\CMSIS\system_CMS32F030x.h

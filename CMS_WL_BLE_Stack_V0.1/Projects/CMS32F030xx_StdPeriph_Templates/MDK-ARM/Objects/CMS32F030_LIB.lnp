@@ -1,0 +1,23 @@
+--cpu Cortex-M0
+".\objects\startup_cms32f030x.o"
+".\objects\system_cms32f030x.o"
+".\objects\cms32f030x_adc.o"
+".\objects\cms32f030x_epwm.o"
+".\objects\cms32f030x_fmc.o"
+".\objects\cms32f030x_gpio.o"
+".\objects\cms32f030x_iic.o"
+".\objects\cms32f030x_pwm.o"
+".\objects\cms32f030x_spi.o"
+".\objects\cms32f030x_syscon.o"
+".\objects\cms32f030x_tim.o"
+".\objects\cms32f030x_uart.o"
+".\objects\cms32f030x_wdt.o"
+".\objects\retarget.o"
+".\objects\main.o"
+".\objects\cms32f030x_it.o"
+".\objects\hal_irq.o"
+".\objects\hal_spi.o"
+".\objects\hal_24g.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\CMS32F030_LIB.map" -o .\Objects\CMS32F030_LIB.axf

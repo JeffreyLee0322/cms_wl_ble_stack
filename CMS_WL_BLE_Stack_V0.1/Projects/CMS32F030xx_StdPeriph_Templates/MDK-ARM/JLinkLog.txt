@@ -1,0 +1,30 @@
+
+T1D68 000:293 SEGGER J-Link V5.12e Log File (0000ms, 0281ms total)
+T1D68 000:293 DLL Compiled: Apr 29 2016 15:03:58 (0000ms, 0281ms total)
+T1D68 000:293 Logging started @ 2018-07-23 14:33 (0000ms, 0281ms total)
+T1D68 000:293 JLINK_SetWarnOutHandler(...) (0000ms, 0281ms total)
+T1D68 000:293 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Jun  2 2222 22:22:22
+Hardware: V9.00
+S/N: 30000299
+Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI  returns O.K. (0264ms, 0545ms total)
+T1D68 000:558 JLINK_SetErrorOutHandler(...) (0000ms, 0545ms total)
+T1D68 000:558 JLINK_ExecCommand("ProjectFile = "E:\CMS_Project\WL_BLE\CMS_WL_BLE_Stack_V0.1\CMS_WL_BLE_Stack_V0.1\Projects\CMS32F030xx_StdPeriph_Templates\MDK-ARM\JLinkSettings.ini"", ...)Device "CORTEX-M0+" selected.  returns 0x00 (0002ms, 0547ms total)
+T1D68 000:562 JLINK_ExecCommand("Device = CMS32F030x", ...)Device "CORTEX-M0+" selected.  returns 0x00 (0003ms, 0550ms total)
+T1D68 000:565 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0550ms total)
+T1D68 000:565 JLINK_GetHardwareVersion()  returns 0x15F90 (0000ms, 0550ms total)
+T1D68 000:565 JLINK_GetDLLVersion()  returns 51205 (0000ms, 0550ms total)
+T1D68 000:565 JLINK_GetFirmwareString(...) (0000ms, 0550ms total)
+T1D68 000:572 JLINK_GetDLLVersion()  returns 51205 (0000ms, 0550ms total)
+T1D68 000:572 JLINK_GetCompileDateTime() (0000ms, 0550ms total)
+T1D68 000:575 JLINK_GetFirmwareString(...) (0000ms, 0550ms total)
+T1D68 000:583 JLINK_GetHardwareVersion()  returns 0x15F90 (0000ms, 0550ms total)
+T1D68 000:594 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 0551ms total)
+T1D68 000:595 JLINK_SetSpeed(5000) (0001ms, 0552ms total)
+T1D68 000:596 JLINK_GetId() >0x108 TIF>Found SWD-DP with ID 0x0BB11477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF>Could not power-up debug power domain. >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x30 TIF> >0x0D TIF> >0x21 TIF>
+  ***** Error: DAP error while reading AHB-AP IDR.
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+               >0x108 TIF>Found SWD-DP with ID 0x0BB11477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF>Could not power-up debug power domain. >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x30 TIF> >0x0D TIF> >0x21 TIF>  returns 0x00000000 (0078ms, 0630ms total)
+T1D68 001:932 JLINK_Close() (0001ms, 0631ms total)
+T1D68 001:932  (0001ms, 0631ms total)
+T1D68 001:932 Closed (0001ms, 0631ms total)

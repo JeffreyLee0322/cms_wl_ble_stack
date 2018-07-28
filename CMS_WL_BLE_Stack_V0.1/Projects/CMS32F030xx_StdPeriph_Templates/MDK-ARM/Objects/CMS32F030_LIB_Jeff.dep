@@ -1,0 +1,324 @@
+Dependencies for Project 'CMS32F030_LIB', Target 'Jeff': (DO NOT MODIFY !)
+F (..\..\..\Libraries\CMSIS\startup_CMS32F030x.s)(0x59F2D24C)(--cpu Cortex-M0 -g --apcs=interwork -I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "CMS32F030x SETA 1"--list .\listings\startup_cms32f030x.lst --xref -o .\objects\startup_cms32f030x.o --depend .\objects\startup_cms32f030x.d)
+F (..\..\..\Libraries\CMSIS\system_CMS32F030x.c)(0x59DF31BA)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\system_cms32f030x.o --omf_browse .\objects\system_cms32f030x.crf --depend .\objects\system_cms32f030x.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
+F (..\..\..\Libraries\src\CMS32F030x_adc.c)(0x58BFC2B6)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\cms32f030x_adc.o --omf_browse .\objects\cms32f030x_adc.crf --depend .\objects\cms32f030x_adc.d)
+I (..\..\..\Libraries\inc\CMS32F030x_adc.h)(0x587D87E8)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
+I (..\..\..\Libraries\CMSIS\config_CMS32F030x.h)(0x5A0E2F71)
+I (..\..\..\Libraries\inc\CMS32F030x_gpio.h)(0x5A0BC154)
+I (..\..\..\Libraries\inc\CMS32F030x_iic.h)(0x5A02B436)
+I (..\..\..\Libraries\inc\CMS32F030x_spi.h)(0x586F285A)
+I (..\..\..\Libraries\inc\CMS32F030x_syscon.h)(0x5B48004B)
+I (..\..\..\Libraries\inc\CMS32F030x_uart.h)(0x59F1898B)
+I (..\..\..\Libraries\inc\CMS32F030x_tim.h)(0x5A0BC1BA)
+I (..\..\..\Libraries\inc\CMS32F030x_wdt.h)(0x59E6C45A)
+I (..\..\..\Libraries\inc\CMS32F030x_pwm.h)(0x5A0BC29F)
+I (..\..\..\Libraries\inc\CMS32F030x_fmc.h)(0x59E7002B)
+I (..\..\..\Libraries\inc\CMS32F030x_epwm.h)(0x5A0EC7FF)
+F (..\..\..\Libraries\src\CMS32F030x_epwm.c)(0x5A0EB8AE)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\cms32f030x_epwm.o --omf_browse .\objects\cms32f030x_epwm.crf --depend .\objects\cms32f030x_epwm.d)
+I (..\..\..\Libraries\inc\CMS32F030x_epwm.h)(0x5A0EC7FF)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
+F (..\..\..\Libraries\src\CMS32F030x_fmc.c)(0x59E700BF)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\cms32f030x_fmc.o --omf_browse .\objects\cms32f030x_fmc.crf --depend .\objects\cms32f030x_fmc.d)
+I (..\..\..\Libraries\inc\CMS32F030x_fmc.h)(0x59E7002B)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
+I (..\..\..\Libraries\CMSIS\config_CMS32F030x.h)(0x5A0E2F71)
+I (..\..\..\Libraries\inc\CMS32F030x_gpio.h)(0x5A0BC154)
+I (..\..\..\Libraries\inc\CMS32F030x_iic.h)(0x5A02B436)
+I (..\..\..\Libraries\inc\CMS32F030x_spi.h)(0x586F285A)
+I (..\..\..\Libraries\inc\CMS32F030x_syscon.h)(0x5B48004B)
+I (..\..\..\Libraries\inc\CMS32F030x_uart.h)(0x59F1898B)
+I (..\..\..\Libraries\inc\CMS32F030x_tim.h)(0x5A0BC1BA)
+I (..\..\..\Libraries\inc\CMS32F030x_wdt.h)(0x59E6C45A)
+I (..\..\..\Libraries\inc\CMS32F030x_pwm.h)(0x5A0BC29F)
+I (..\..\..\Libraries\inc\CMS32F030x_adc.h)(0x587D87E8)
+I (..\..\..\Libraries\inc\CMS32F030x_epwm.h)(0x5A0EC7FF)
+F (..\..\..\Libraries\src\CMS32F030x_gpio.c)(0x5A0BC172)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\cms32f030x_gpio.o --omf_browse .\objects\cms32f030x_gpio.crf --depend .\objects\cms32f030x_gpio.d)
+I (..\..\..\Libraries\inc\CMS32F030x_gpio.h)(0x5A0BC154)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
+I (..\..\..\Libraries\CMSIS\config_CMS32F030x.h)(0x5A0E2F71)
+I (..\..\..\Libraries\inc\CMS32F030x_iic.h)(0x5A02B436)
+I (..\..\..\Libraries\inc\CMS32F030x_spi.h)(0x586F285A)
+I (..\..\..\Libraries\inc\CMS32F030x_syscon.h)(0x5B48004B)
+I (..\..\..\Libraries\inc\CMS32F030x_uart.h)(0x59F1898B)
+I (..\..\..\Libraries\inc\CMS32F030x_tim.h)(0x5A0BC1BA)
+I (..\..\..\Libraries\inc\CMS32F030x_wdt.h)(0x59E6C45A)
+I (..\..\..\Libraries\inc\CMS32F030x_pwm.h)(0x5A0BC29F)
+I (..\..\..\Libraries\inc\CMS32F030x_adc.h)(0x587D87E8)
+I (..\..\..\Libraries\inc\CMS32F030x_fmc.h)(0x59E7002B)
+I (..\..\..\Libraries\inc\CMS32F030x_epwm.h)(0x5A0EC7FF)
+F (..\..\..\Libraries\src\CMS32F030x_iic.c)(0x587C2B36)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\cms32f030x_iic.o --omf_browse .\objects\cms32f030x_iic.crf --depend .\objects\cms32f030x_iic.d)
+I (..\..\..\Libraries\inc\CMS32F030x_iic.h)(0x5A02B436)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
+I (..\..\..\Libraries\CMSIS\config_CMS32F030x.h)(0x5A0E2F71)
+I (..\..\..\Libraries\inc\CMS32F030x_gpio.h)(0x5A0BC154)
+I (..\..\..\Libraries\inc\CMS32F030x_spi.h)(0x586F285A)
+I (..\..\..\Libraries\inc\CMS32F030x_syscon.h)(0x5B48004B)
+I (..\..\..\Libraries\inc\CMS32F030x_uart.h)(0x59F1898B)
+I (..\..\..\Libraries\inc\CMS32F030x_tim.h)(0x5A0BC1BA)
+I (..\..\..\Libraries\inc\CMS32F030x_wdt.h)(0x59E6C45A)
+I (..\..\..\Libraries\inc\CMS32F030x_pwm.h)(0x5A0BC29F)
+I (..\..\..\Libraries\inc\CMS32F030x_adc.h)(0x587D87E8)
+I (..\..\..\Libraries\inc\CMS32F030x_fmc.h)(0x59E7002B)
+I (..\..\..\Libraries\inc\CMS32F030x_epwm.h)(0x5A0EC7FF)
+F (..\..\..\Libraries\src\CMS32F030x_pwm.c)(0x59DF2DD0)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\cms32f030x_pwm.o --omf_browse .\objects\cms32f030x_pwm.crf --depend .\objects\cms32f030x_pwm.d)
+I (..\..\..\Libraries\inc\CMS32F030x_pwm.h)(0x5A0BC29F)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
+I (..\..\..\Libraries\CMSIS\config_CMS32F030x.h)(0x5A0E2F71)
+I (..\..\..\Libraries\inc\CMS32F030x_gpio.h)(0x5A0BC154)
+I (..\..\..\Libraries\inc\CMS32F030x_iic.h)(0x5A02B436)
+I (..\..\..\Libraries\inc\CMS32F030x_spi.h)(0x586F285A)
+I (..\..\..\Libraries\inc\CMS32F030x_syscon.h)(0x5B48004B)
+I (..\..\..\Libraries\inc\CMS32F030x_uart.h)(0x59F1898B)
+I (..\..\..\Libraries\inc\CMS32F030x_tim.h)(0x5A0BC1BA)
+I (..\..\..\Libraries\inc\CMS32F030x_wdt.h)(0x59E6C45A)
+I (..\..\..\Libraries\inc\CMS32F030x_adc.h)(0x587D87E8)
+I (..\..\..\Libraries\inc\CMS32F030x_fmc.h)(0x59E7002B)
+I (..\..\..\Libraries\inc\CMS32F030x_epwm.h)(0x5A0EC7FF)
+F (..\..\..\Libraries\src\CMS32F030x_spi.c)(0x5A017EA3)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\cms32f030x_spi.o --omf_browse .\objects\cms32f030x_spi.crf --depend .\objects\cms32f030x_spi.d)
+I (..\..\..\Libraries\inc\CMS32F030x_spi.h)(0x586F285A)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
+I (..\..\..\Libraries\CMSIS\config_CMS32F030x.h)(0x5A0E2F71)
+I (..\..\..\Libraries\inc\CMS32F030x_gpio.h)(0x5A0BC154)
+I (..\..\..\Libraries\inc\CMS32F030x_iic.h)(0x5A02B436)
+I (..\..\..\Libraries\inc\CMS32F030x_syscon.h)(0x5B48004B)
+I (..\..\..\Libraries\inc\CMS32F030x_uart.h)(0x59F1898B)
+I (..\..\..\Libraries\inc\CMS32F030x_tim.h)(0x5A0BC1BA)
+I (..\..\..\Libraries\inc\CMS32F030x_wdt.h)(0x59E6C45A)
+I (..\..\..\Libraries\inc\CMS32F030x_pwm.h)(0x5A0BC29F)
+I (..\..\..\Libraries\inc\CMS32F030x_adc.h)(0x587D87E8)
+I (..\..\..\Libraries\inc\CMS32F030x_fmc.h)(0x59E7002B)
+I (..\..\..\Libraries\inc\CMS32F030x_epwm.h)(0x5A0EC7FF)
+F (..\..\..\Libraries\src\CMS32F030x_syscon.c)(0x5B3ADABB)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\cms32f030x_syscon.o --omf_browse .\objects\cms32f030x_syscon.crf --depend .\objects\cms32f030x_syscon.d)
+I (..\..\..\Libraries\inc\CMS32F030x_syscon.h)(0x5B48004B)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
+I (..\..\..\Libraries\CMSIS\config_CMS32F030x.h)(0x5A0E2F71)
+I (..\..\..\Libraries\inc\CMS32F030x_gpio.h)(0x5A0BC154)
+I (..\..\..\Libraries\inc\CMS32F030x_iic.h)(0x5A02B436)
+I (..\..\..\Libraries\inc\CMS32F030x_spi.h)(0x586F285A)
+I (..\..\..\Libraries\inc\CMS32F030x_uart.h)(0x59F1898B)
+I (..\..\..\Libraries\inc\CMS32F030x_tim.h)(0x5A0BC1BA)
+I (..\..\..\Libraries\inc\CMS32F030x_wdt.h)(0x59E6C45A)
+I (..\..\..\Libraries\inc\CMS32F030x_pwm.h)(0x5A0BC29F)
+I (..\..\..\Libraries\inc\CMS32F030x_adc.h)(0x587D87E8)
+I (..\..\..\Libraries\inc\CMS32F030x_fmc.h)(0x59E7002B)
+I (..\..\..\Libraries\inc\CMS32F030x_epwm.h)(0x5A0EC7FF)
+F (..\..\..\Libraries\src\CMS32F030x_tim.c)(0x58BFC350)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\cms32f030x_tim.o --omf_browse .\objects\cms32f030x_tim.crf --depend .\objects\cms32f030x_tim.d)
+I (..\..\..\Libraries\inc\CMS32F030x_tim.h)(0x5A0BC1BA)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
+I (..\..\..\Libraries\CMSIS\config_CMS32F030x.h)(0x5A0E2F71)
+I (..\..\..\Libraries\inc\CMS32F030x_gpio.h)(0x5A0BC154)
+I (..\..\..\Libraries\inc\CMS32F030x_iic.h)(0x5A02B436)
+I (..\..\..\Libraries\inc\CMS32F030x_spi.h)(0x586F285A)
+I (..\..\..\Libraries\inc\CMS32F030x_syscon.h)(0x5B48004B)
+I (..\..\..\Libraries\inc\CMS32F030x_uart.h)(0x59F1898B)
+I (..\..\..\Libraries\inc\CMS32F030x_wdt.h)(0x59E6C45A)
+I (..\..\..\Libraries\inc\CMS32F030x_pwm.h)(0x5A0BC29F)
+I (..\..\..\Libraries\inc\CMS32F030x_adc.h)(0x587D87E8)
+I (..\..\..\Libraries\inc\CMS32F030x_fmc.h)(0x59E7002B)
+I (..\..\..\Libraries\inc\CMS32F030x_epwm.h)(0x5A0EC7FF)
+F (..\..\..\Libraries\src\CMS32F030x_uart.c)(0x59F18DAB)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\cms32f030x_uart.o --omf_browse .\objects\cms32f030x_uart.crf --depend .\objects\cms32f030x_uart.d)
+I (..\..\..\Libraries\inc\CMS32F030x_uart.h)(0x59F1898B)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
+I (..\..\..\Libraries\CMSIS\config_CMS32F030x.h)(0x5A0E2F71)
+I (..\..\..\Libraries\inc\CMS32F030x_gpio.h)(0x5A0BC154)
+I (..\..\..\Libraries\inc\CMS32F030x_iic.h)(0x5A02B436)
+I (..\..\..\Libraries\inc\CMS32F030x_spi.h)(0x586F285A)
+I (..\..\..\Libraries\inc\CMS32F030x_syscon.h)(0x5B48004B)
+I (..\..\..\Libraries\inc\CMS32F030x_tim.h)(0x5A0BC1BA)
+I (..\..\..\Libraries\inc\CMS32F030x_wdt.h)(0x59E6C45A)
+I (..\..\..\Libraries\inc\CMS32F030x_pwm.h)(0x5A0BC29F)
+I (..\..\..\Libraries\inc\CMS32F030x_adc.h)(0x587D87E8)
+I (..\..\..\Libraries\inc\CMS32F030x_fmc.h)(0x59E7002B)
+I (..\..\..\Libraries\inc\CMS32F030x_epwm.h)(0x5A0EC7FF)
+F (..\..\..\Libraries\src\CMS32F030x_wdt.c)(0x59E6C56F)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\cms32f030x_wdt.o --omf_browse .\objects\cms32f030x_wdt.crf --depend .\objects\cms32f030x_wdt.d)
+I (..\..\..\Libraries\inc\CMS32F030x_wdt.h)(0x59E6C45A)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
+I (..\..\..\Libraries\CMSIS\config_CMS32F030x.h)(0x5A0E2F71)
+I (..\..\..\Libraries\inc\CMS32F030x_gpio.h)(0x5A0BC154)
+I (..\..\..\Libraries\inc\CMS32F030x_iic.h)(0x5A02B436)
+I (..\..\..\Libraries\inc\CMS32F030x_spi.h)(0x586F285A)
+I (..\..\..\Libraries\inc\CMS32F030x_syscon.h)(0x5B48004B)
+I (..\..\..\Libraries\inc\CMS32F030x_uart.h)(0x59F1898B)
+I (..\..\..\Libraries\inc\CMS32F030x_tim.h)(0x5A0BC1BA)
+I (..\..\..\Libraries\inc\CMS32F030x_pwm.h)(0x5A0BC29F)
+I (..\..\..\Libraries\inc\CMS32F030x_adc.h)(0x587D87E8)
+I (..\..\..\Libraries\inc\CMS32F030x_fmc.h)(0x59E7002B)
+I (..\..\..\Libraries\inc\CMS32F030x_epwm.h)(0x5A0EC7FF)
+F (..\..\..\Libraries\src\retarget.c)(0x5A0A7F7E)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (..\..\..\Libraries\CMSIS\config_CMS32F030x.h)(0x5A0E2F71)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
+I (..\..\..\Libraries\inc\CMS32F030x_gpio.h)(0x5A0BC154)
+I (..\..\..\Libraries\inc\CMS32F030x_iic.h)(0x5A02B436)
+I (..\..\..\Libraries\inc\CMS32F030x_spi.h)(0x586F285A)
+I (..\..\..\Libraries\inc\CMS32F030x_syscon.h)(0x5B48004B)
+I (..\..\..\Libraries\inc\CMS32F030x_uart.h)(0x59F1898B)
+I (..\..\..\Libraries\inc\CMS32F030x_tim.h)(0x5A0BC1BA)
+I (..\..\..\Libraries\inc\CMS32F030x_wdt.h)(0x59E6C45A)
+I (..\..\..\Libraries\inc\CMS32F030x_pwm.h)(0x5A0BC29F)
+I (..\..\..\Libraries\inc\CMS32F030x_adc.h)(0x587D87E8)
+I (..\..\..\Libraries\inc\CMS32F030x_fmc.h)(0x59E7002B)
+I (..\..\..\Libraries\inc\CMS32F030x_epwm.h)(0x5A0EC7FF)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+F (..\src\main.c)(0x5B55751E)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\inc\main.h)(0x5B445A99)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\inc\user_config.h)(0x5B4819F5)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
+I (..\..\..\Libraries\inc\CMS32F030x_syscon.h)(0x5B48004B)
+I (..\..\..\Libraries\CMSIS\config_CMS32F030x.h)(0x5A0E2F71)
+I (..\..\..\Libraries\inc\CMS32F030x_gpio.h)(0x5A0BC154)
+I (..\..\..\Libraries\inc\CMS32F030x_iic.h)(0x5A02B436)
+I (..\..\..\Libraries\inc\CMS32F030x_spi.h)(0x586F285A)
+I (..\..\..\Libraries\inc\CMS32F030x_uart.h)(0x59F1898B)
+I (..\..\..\Libraries\inc\CMS32F030x_tim.h)(0x5A0BC1BA)
+I (..\..\..\Libraries\inc\CMS32F030x_wdt.h)(0x59E6C45A)
+I (..\..\..\Libraries\inc\CMS32F030x_pwm.h)(0x5A0BC29F)
+I (..\..\..\Libraries\inc\CMS32F030x_adc.h)(0x587D87E8)
+I (..\..\..\Libraries\inc\CMS32F030x_fmc.h)(0x59E7002B)
+I (..\..\..\Libraries\inc\CMS32F030x_epwm.h)(0x5A0EC7FF)
+I (..\inc\HAL\hal_spi.h)(0x5B481BD1)
+I (..\inc\HAL\hal_irq.h)(0x5B481CB0)
+F (..\src\CMS32F030x_it.c)(0x5B4800DA)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\cms32f030x_it.o --omf_browse .\objects\cms32f030x_it.crf --depend .\objects\cms32f030x_it.d)
+I (..\inc\CMS32F030x_it.h)(0x586F2858)
+I (..\inc\main.h)(0x5B445A99)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\..\..\Libraries\inc\CMS32F030x_gpio.h)(0x5A0BC154)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
+I (..\..\..\Libraries\CMSIS\config_CMS32F030x.h)(0x5A0E2F71)
+I (..\..\..\Libraries\inc\CMS32F030x_iic.h)(0x5A02B436)
+I (..\..\..\Libraries\inc\CMS32F030x_spi.h)(0x586F285A)
+I (..\..\..\Libraries\inc\CMS32F030x_syscon.h)(0x5B48004B)
+I (..\..\..\Libraries\inc\CMS32F030x_uart.h)(0x59F1898B)
+I (..\..\..\Libraries\inc\CMS32F030x_tim.h)(0x5A0BC1BA)
+I (..\..\..\Libraries\inc\CMS32F030x_wdt.h)(0x59E6C45A)
+I (..\..\..\Libraries\inc\CMS32F030x_pwm.h)(0x5A0BC29F)
+I (..\..\..\Libraries\inc\CMS32F030x_adc.h)(0x587D87E8)
+I (..\..\..\Libraries\inc\CMS32F030x_fmc.h)(0x59E7002B)
+I (..\..\..\Libraries\inc\CMS32F030x_epwm.h)(0x5A0EC7FF)
+F (..\src\HAL\hal_irq.c)(0x5B481A83)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\hal_irq.o --omf_browse .\objects\hal_irq.crf --depend .\objects\hal_irq.d)
+I (..\inc\HAL\hal_irq.h)(0x5B481CB0)
+I (..\inc\user_config.h)(0x5B4819F5)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
+I (..\..\..\Libraries\inc\CMS32F030x_gpio.h)(0x5A0BC154)
+I (..\..\..\Libraries\CMSIS\config_CMS32F030x.h)(0x5A0E2F71)
+I (..\..\..\Libraries\inc\CMS32F030x_iic.h)(0x5A02B436)
+I (..\..\..\Libraries\inc\CMS32F030x_spi.h)(0x586F285A)
+I (..\..\..\Libraries\inc\CMS32F030x_syscon.h)(0x5B48004B)
+I (..\..\..\Libraries\inc\CMS32F030x_uart.h)(0x59F1898B)
+I (..\..\..\Libraries\inc\CMS32F030x_tim.h)(0x5A0BC1BA)
+I (..\..\..\Libraries\inc\CMS32F030x_wdt.h)(0x59E6C45A)
+I (..\..\..\Libraries\inc\CMS32F030x_pwm.h)(0x5A0BC29F)
+I (..\..\..\Libraries\inc\CMS32F030x_adc.h)(0x587D87E8)
+I (..\..\..\Libraries\inc\CMS32F030x_fmc.h)(0x59E7002B)
+I (..\..\..\Libraries\inc\CMS32F030x_epwm.h)(0x5A0EC7FF)
+F (..\src\HAL\hal_spi.c)(0x5B498B46)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\hal_spi.o --omf_browse .\objects\hal_spi.crf --depend .\objects\hal_spi.d)
+I (..\inc\HAL\hal_spi.h)(0x5B481BD1)
+I (..\inc\user_config.h)(0x5B4819F5)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
+I (..\..\..\Libraries\inc\CMS32F030x_spi.h)(0x586F285A)
+I (..\..\..\Libraries\CMSIS\config_CMS32F030x.h)(0x5A0E2F71)
+I (..\..\..\Libraries\inc\CMS32F030x_gpio.h)(0x5A0BC154)
+I (..\..\..\Libraries\inc\CMS32F030x_iic.h)(0x5A02B436)
+I (..\..\..\Libraries\inc\CMS32F030x_syscon.h)(0x5B48004B)
+I (..\..\..\Libraries\inc\CMS32F030x_uart.h)(0x59F1898B)
+I (..\..\..\Libraries\inc\CMS32F030x_tim.h)(0x5A0BC1BA)
+I (..\..\..\Libraries\inc\CMS32F030x_wdt.h)(0x59E6C45A)
+I (..\..\..\Libraries\inc\CMS32F030x_pwm.h)(0x5A0BC29F)
+I (..\..\..\Libraries\inc\CMS32F030x_adc.h)(0x587D87E8)
+I (..\..\..\Libraries\inc\CMS32F030x_fmc.h)(0x59E7002B)
+I (..\..\..\Libraries\inc\CMS32F030x_epwm.h)(0x5A0EC7FF)
+F (..\src\HAL\hal_24g.c)(0x5B481877)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\Libraries\CMSIS -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Libraries\inc -I ..\inc -I ..\inc\HAL-I.\RTE\_Jeff-Id:\Keil_v5\ARM\PACK\Keil\CMS32F030x\1.0.5\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DCMS32F030x-o .\objects\hal_24g.o --omf_browse .\objects\hal_24g.crf --depend .\objects\hal_24g.d)
+I (..\inc\HAL\hal_24g.h)(0x5B481915)
+I (..\inc\user_Config.h)(0x5B4819F5)
+I (..\..\..\Libraries\CMSIS\CMS32F030x.h)(0x5A0D61DC)
+I (..\..\..\Libraries\CMSIS\Include\core_cm0.h)(0x547D9684)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\..\Libraries\CMSIS\Include\core_cmInstr.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\Include\core_cmFunc.h)(0x547D9684)
+I (..\..\..\Libraries\CMSIS\system_CMS32F030x.h)(0x587C2A64)
